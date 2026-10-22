@@ -1,0 +1,297 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#fff0f4">
+    <title>Our First Anniversary ♡</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- HALAMAN PEMBUKA -->
+    <div class="cover" id="cover">
+
+        <div class="cover-content">
+            <p class="eyebrow">A LITTLE SURPRISE FOR YOU</p>
+
+            <h1>For My<br><span>Favorite Person</span></h1>
+
+            <p class="cover-description">
+                I have something special for us ♡
+            </p>
+
+            <!-- AMPLOP -->
+            <div class="envelope" id="envelope">
+
+                <div class="envelope-back"></div>
+
+                <div class="letter-preview">
+                    <span>To My Love</span>
+                    <strong>Happy 1st<br>Anniversary ♡</strong>
+                </div>
+
+                <div class="envelope-pocket"></div>
+                <div class="envelope-flap"></div>
+                <div class="envelope-seal">♥</div>
+
+            </div>
+
+            <button class="open-button" id="openButton">
+                Buka Suratku ♡
+            </button>
+
+            <p class="cover-footer">Made with all my love</p>
+        </div>
+
+    </div>
+
+    <!-- MUSIK -->
+    <audio id="anniversaryMusic" loop preload="auto">
+        <source src="lagu.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- TOMBOL MUSIK -->
+    <button class="music-button" id="musicButton" hidden
+            aria-label="Putar atau jeda musik">
+        ♫ <span id="musicLabel">Musik</span>
+    </button>
+
+    <!-- ISI WEBSITE -->
+    <main id="mainContent" hidden>
+
+        <!-- PEMBUKA ANNIVERSARY -->
+        <section class="hero">
+            <div class="hero-decoration">♡</div>
+
+            <p class="eyebrow">OUR SPECIAL DAY</p>
+
+            <h2>Happy <span>1st</span><br>Anniversary</h2>
+
+            <p class="hero-text">
+                365 days of love, laughter, and memories.
+                And I would still choose you. ♡
+            </p>
+
+            <div class="date-pill">
+                ONE YEAR · ONE LOVE
+            </div>
+
+            <a class="scroll-button" href="#story">
+                Our Story ↓
+            </a>
+
+            <p class="forever">You and me, always.</p>
+        </section>
+
+        <!-- CERITA KITA -->
+        <section class="section story" id="story">
+            <p class="eyebrow">OUR LITTLE UNIVERSE</p>
+            <h2>Setahun Bersamamu</h2>
+
+            <p class="body-text">
+                Tidak terasa kita sudah bersama selama satu tahun.
+                Ada banyak tawa, cerita, dan hal sederhana yang
+                akhirnya menjadi kenangan paling berharga.
+
+                Terima kasih sudah hadir di hidupku.
+                Aku tidak meminta hubungan yang selalu sempurna.
+                Aku hanya berharap kita terus belajar memahami,
+                menjaga, dan memilih satu sama lain.
+            </p>
+
+            <div class="names">
+                <span>Noper</span>
+                <span class="pink-heart">♥</span>
+                <span>cikaa</span>
+            </div>
+        </section>
+
+        <!-- GALERI FOTO -->
+        <section class="section gallery" id="gallery">
+            <p class="eyebrow">CAPTURED MOMENTS</p>
+            <h2>Our Little Memories</h2>
+
+            <p class="section-subtitle">
+                Every picture has a story, and every story has you.
+            </p>
+
+            <div class="photo-grid">
+
+                <figure class="photo-card tilt-left">
+                    <img src="cika 7.jpeg" alt="Kenangan pertama" loading="lazy">
+                    <figcaption>Our first memory ♡</figcaption>
+                </figure>
+
+                <figure class="photo-card tilt-right">
+                    <img src="cika 2.jpeg" alt="Momen bersama" loading="lazy">
+                    <figcaption>My favorite person</figcaption>
+                </figure>
+
+                <figure class="photo-card tilt-right">
+                    <img src="cika 3.jpeg" alt="Momen bahagia" loading="lazy">
+                    <figcaption>Little happiness</figcaption>
+                </figure>
+
+                <figure class="photo-card tilt-left">
+                    <img src="cika 44.jpeg" alt="Kenangan berdua" loading="lazy">
+                    <figcaption>Just you and me</figcaption>
+                </figure>
+
+                <figure class="photo-card tilt-left">
+                    <img src="cika 5.jpeg" alt="Foto kenangan" loading="lazy">
+                    <figcaption>My safe place</figcaption>
+                </figure>
+
+                <figure class="photo-card tilt-right">
+                    <img src="cika 12.jpeg" alt="Momen favorit" loading="lazy">
+                    <figcaption>My kind of happiness</figcaption>
+                </figure>
+
+                <figure class="photo-card tilt-right">
+                    <img src="cika 13.jpeg" alt="Foto bersama" loading="lazy">
+                    <figcaption>You make me smile</figcaption>
+                </figure>
+
+                <figure class="photo-card tilt-left">
+                    <img src="cika 8.jpeg" alt="Kenangan indah" loading="lazy">
+                    <figcaption>Always together</figcaption>
+                </figure>
+
+                <figure class="photo-card tilt-left">
+                    <img src="cika 9.jpeg" alt="Foto berdua" loading="lazy">
+                    <figcaption>My favorite view</figcaption>
+                </figure>
+
+                <figure class="photo-card tilt-right">
+                    <img src="cika 11.jpeg" alt="Kenangan anniversary" loading="lazy">
+                    <figcaption>One year of us ♥</figcaption>
+                </figure>
+
+            </div>
+        </section>
+
+        <!-- PERJALANAN CINTA -->
+        <section class="section journey">
+            <p class="eyebrow">OUR JOURNEY</p>
+            <h2>365 Days of Us</h2>
+
+            <div class="journey-list">
+
+                <article class="journey-item">
+                    <div class="journey-icon">♡</div>
+                    <div>
+                        <h3>The Beginning</h3>
+                        <p>Awal cerita yang membawa kita sampai sejauh ini.</p>
+                    </div>
+                </article>
+
+                <article class="journey-item">
+                    <div class="journey-icon">✿</div>
+                    <div>
+                        <h3>Growing Together</h3>
+                        <p>Belajar memahami dan tumbuh menjadi lebih baik bersama.</p>
+                    </div>
+                </article>
+
+                <article class="journey-item">
+                    <div class="journey-icon">♥</div>
+                    <div>
+                        <h3>One Year of Love</h3>
+                        <p>Satu tahun yang akan selalu punya tempat istimewa di hati.</p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- SURAT CINTA -->
+        <section class="section letter-section">
+            <p class="eyebrow">A LETTER FOR YOU</p>
+            <h2>To My Favorite Person</h2>
+
+            <article class="love-letter">
+                <div class="letter-heart">♥</div>
+
+                <p>Hai, sayangku...</p>
+
+                <p>
+                    Selamat satu tahun untuk kita, orang kesayanganku.
+                    Rasanya bahagia sekali bisa sampai di titik ini
+                    bersama kamu.
+                </p>
+
+                <p>
+                    Terima kasih sudah menjadi bagian dari hari-hariku.
+                    Terima kasih untuk perhatian kecil, tawa,
+                    cerita, dan waktu yang sudah kita lewati bersama.
+                    Mungkin bagimu semuanya sederhana, tetapi bagiku
+                    itu semua berarti.
+                </p>
+
+                <p>
+                    Aku tahu kita tidak selalu sempurna. Ada saatnya
+                    kita berbeda pendapat, salah paham, atau merasa lelah.
+                    Namun, aku berharap kita tidak mudah menyerah.
+                    Semoga kita selalu punya keberanian untuk bicara,
+                    saling mendengarkan, dan memperbaiki semuanya.
+                </p>
+
+                <p>
+                    Kalau suatu hari nanti perjalanan kita terasa berat,
+                    semoga kita ingat bagaimana kita memulai semuanya.
+                    Aku ingin terus mengenalmu, tertawa bersamamu,
+                    dan membuat lebih banyak kenangan denganmu.
+                </p>
+
+                <p>
+                    Terima kasih sudah memilihku sampai hari ini.
+                    Semoga ini bukan hanya satu tahun yang indah,
+                    tetapi awal dari banyak tahun yang akan datang.
+                </p>
+
+                <p class="letter-ending">
+                    I love you, more than words can say. ♡
+                </p>
+
+                <p class="signature">With all my love,</p>
+                <h3>Always Yours ♥</h3>
+            </article>
+        </section>
+
+        <!-- PENUTUP -->
+        <section class="ending">
+            <p class="eyebrow">AND THIS IS JUST THE BEGINNING</p>
+
+            <h2>One Year Down,<br>Forever To Go.</h2>
+
+            <p class="ending-text">
+                Jika aku diberi kesempatan untuk mengulang semuanya,
+                aku tetap ingin bertemu dan mengenalmu.
+                Terima kasih sudah menjadi bagian dari ceritaku.
+            </p>
+
+            <div class="last-photo">
+                <img src="cika 1.jpeg" alt="Foto favorit kita" loading="lazy">
+            </div>
+
+            <p class="last-caption">
+                You will always have a special place in my heart.
+            </p>
+
+            <div class="big-heart">♥</div>
+
+            <p class="footer">Made with love, just for you ♡</p>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
